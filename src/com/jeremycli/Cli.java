@@ -1,4 +1,4 @@
-package com.jeremy.cli;
+package com.jeremycli;
 
 import java.io.File;
 import java.io.IOException;
