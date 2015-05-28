@@ -39,7 +39,7 @@ public class Cli {
 	// Here we start the CLI, we gather the file, make sure it's usable and we move on.
 	private void gatherFile() {
 		final String WELCOME = "Welcome to the Jeremy CSV API command line interface.\nFirst, we'll need you to enter the filepath of your .csv file.\nExample: C:\\folder\\data.csv";
-		final String INVALID_PATH = "Enter a valid path to your csv file. (Type \"exit\" to quit";
+		final String INVALID_PATH = "Enter a valid path to your csv file. (Type \"exit\" to quit)";
 		System.out.println(WELCOME);
 		filePath = scan.next();
 		while (!checkCsv(filePath)) {
